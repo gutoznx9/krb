@@ -13,6 +13,10 @@ agenda num painel flutuante na área de trabalho. Roda 24h no Windows.
 Pré-requisito: **Python 3.11 ou 3.12** instalado pelo site https://www.python.org/downloads/
 (na instalação, marque **"Add python.exe to PATH"**).
 
+**Coloque o projeto num caminho curto, como `C:\krb`.** O Windows não aceita
+caminhos com mais de 260 caracteres, e o PySide6 cria pastas muito profundas;
+em pastas como `Downloads\...\...` a instalação falha.
+
 Abra a pasta do projeto no Explorer e dê **dois cliques** em:
 
 | Arquivo        | Para quê                                                        |

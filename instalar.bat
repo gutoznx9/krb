@@ -16,6 +16,12 @@ if errorlevel 1 (
     exit /b 1
 )
 
+%PY% tools\verificar_caminho.py
+if errorlevel 1 (
+    pause
+    exit /b 1
+)
+
 if not exist ".venv\Scripts\python.exe" (
     echo Criando ambiente virtual .venv ...
     %PY% -m venv .venv || (echo [ERRO] Falha ao criar ambiente virtual & pause & exit /b 1)
