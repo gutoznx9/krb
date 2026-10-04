@@ -1,0 +1,5 @@
+# FASE 1 - interface desktop (janela, bandeja, painel flutuante)
+PySide6>=6.6,<7
+
+# FASE 2 (será adicionado quando chegarmos lá):
+# playwright

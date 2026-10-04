@@ -1,0 +1,10 @@
+# Ambiente Python
+.venv/
+__pycache__/
+*.pyc
+
+# Dados do usuário (NUNCA versionar: contém clientes, mensagens, PIX etc.)
+data/
+logs/
+config/settings.json
+config/*.corrupt-*
